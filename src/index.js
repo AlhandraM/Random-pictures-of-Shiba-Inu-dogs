@@ -1,8 +1,17 @@
-fetch("https://shibe.online/api/shibes?count=10")
-  .then((response) => response.json())
-  .then((data) => {
-    // Assuming the response is in JSON format and contains an array of images
-    console.log(data); // Logging the data to the console
-    // You can do further processing with the fetched data here
-  })
-  .catch((error) => console.error("Error fetching data:", error)); // Handling errors
+async function fetchAndDisplayShibes() {
+  try {
+    const response = await fetch("https://shibe.online/api/shibes?count=10");
+    const data = await response.json();
+    data.forEach((imageUrl) => {
+      const container = document.createElement("div");
+      const imageElement = document.createElement("img");
+      imageElement.src = imageUrl;
+      container.appendChild(imageElement);
+      document.body.appendChild(container);
+    });
+  } catch (error) {
+    console.error("Error:", error);
+  }
+}
+
+fetchAndDisplayShibes();
