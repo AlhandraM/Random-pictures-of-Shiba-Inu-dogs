@@ -1,0 +1,64 @@
+{
+  "shibes": [
+    {
+      "id": 1,
+      "url": "https://cdn.shibe.online/shibes/1.jpg",
+      "likes": 5,
+      "comments": []
+    },
+    {
+      "id": 2,
+      "url": "https://cdn.shibe.online/shibes/2.jpg",
+      "likes": 3,
+      "comments": []
+    },
+    {
+      "id": 3,
+      "url": "https://cdn.shibe.online/shibes/3.jpg",
+      "likes": 6,
+      "comments": []
+    },
+    {
+      "id": 4,
+      "url": "https://cdn.shibe.online/shibes/4.jpg",
+      "likes": 1,
+      "comments": []
+    },
+    {
+      "id": 5,
+      "url": "https://cdn.shibe.online/shibes/5.jpg",
+      "likes": 7,
+      "comments": []
+    },
+    {
+      "id": 6,
+      "url": "https://cdn.shibe.online/shibes/6.jpg",
+      "likes": 9,
+      "comments": []
+    },
+    {
+      "id": 7,
+      "url": "https://cdn.shibe.online/shibes/7.jpg",
+      "likes": 0,
+      "comments": []
+    },
+    {
+      "id": 8,
+      "url": "https://cdn.shibe.online/shibes/8.jpg",
+      "likes": 3,
+      "comments": []
+    },
+    {
+      "id": 9,
+      "url": "https://cdn.shibe.online/shibes/9.jpg",
+      "likes": 2,
+      "comments": []
+    },
+    {
+      "id": 10,
+      "url": "https://cdn.shibe.online/shibes/10.jpg",
+      "likes": 8,
+      "comments": []
+    }
+  ]
+}
